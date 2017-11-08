@@ -1,7 +1,7 @@
 # Defines the port where the config server is running so that rest of the services can pick up
 # their external props configurations
 server:
-    port: 9999
+    port: 9000
 
 spring:
     cloud:
