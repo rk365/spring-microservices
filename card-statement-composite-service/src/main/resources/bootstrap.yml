@@ -1,0 +1,7 @@
+#name of the app and config server inf
+spring:
+  application:
+    name: card-statement-composite
+  cloud:
+    config:
+      uri: http://localhost:9000

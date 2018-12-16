@@ -1,0 +1,9 @@
+# The purpose of this file is to define a name for this sub-project and
+#to set-up the configuration server for which the application will look at.
+#conf server will have the details of this discovery server.
+spring:
+    application:
+        name: statement-service
+    cloud:
+        config:
+            uri: http://localhost:9000
